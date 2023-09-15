@@ -1,0 +1,19 @@
+{
+    "name": "nikolay/spletna-trgovina",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "nikolayVv",
+            "email": "nikolaivalvasilev@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "doctrine/dbal": "^3.1",
+        "spatie/async": "^1.5"
+    }
+}
